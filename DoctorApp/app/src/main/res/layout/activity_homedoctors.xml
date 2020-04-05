@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#53a6b9"
+    tools:context="mytextviewapp.add.com.doctorapp.Homedoctors"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/gradient">
+
+        <TextView
+            android:id="@+id/txtid"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#11000000"
+            android:gravity="center"
+            android:text="TextView" />
+
+        <ListView
+            android:id="@+id/listid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/list_selector"
+            android:drawSelectorOnTop="true"
+            android:divider="#ff7ab59c"
+            android:dividerHeight="4dp"
+            />
+    </LinearLayout>
+</RelativeLayout>
